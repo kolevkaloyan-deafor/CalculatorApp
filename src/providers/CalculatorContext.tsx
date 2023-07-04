@@ -97,8 +97,6 @@ const CalcProvider = ({ children }: CalcProviderProps) => {
       case "÷":
         result = previous / current;
         break;
-      case "%":
-        result = current / 100;
     }
 
     return result;
